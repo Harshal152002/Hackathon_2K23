@@ -1,0 +1,60 @@
+*{
+    border:1px solid red;
+}
+
+.splitScreen {
+    display: 'flex';
+    flex-direction:row;
+}
+.topPane {
+    width: '50%',
+}
+.bottomPane{
+    width: '50%',
+}
+
+.login{
+    background-color: grey;
+    height: 90%;
+    width:70%;
+    padding-top: 0.1em;
+}
+.whole-component{
+    margin-top: 5em;
+}
+
+.login2{
+    color: grey;
+}
+.usrnm{
+    width: 80%;
+    margin-left: 1em;
+    margin-top: 2em;
+
+}
+.submission{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.first-field{
+    padding-top:0.5em ;
+}
+.Link-color{
+    color: black;
+}
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+}
+.h-custom {
+height: calc(100% - 73px);
+}
+@media (max-width: 450px) {
+.h-custom {
+height: 100%;
+}
+}
